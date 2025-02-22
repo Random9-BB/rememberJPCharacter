@@ -1,10 +1,10 @@
-.logo.vite:hover {
-  filter: drop-shadow(0 0 2em #747bff);
+.character {
+  filter: 
+  drop-shadow(0 0 1em rgba(255, 255, 255, 1))
+  drop-shadow(0 0 2em rgba(255, 255, 255, 0.7));
+
 }
 
-.logo.typescript:hover {
-  filter: drop-shadow(0 0 2em #2d79c7);
-}
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -30,16 +30,7 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: 0.75s;
-}
 
-.logo.tauri:hover {
-  filter: drop-shadow(0 0 2em #24c8db);
-}
 
 .row {
   display: flex;
@@ -69,20 +60,16 @@ button {
   font-weight: 500;
   font-family: inherit;
   color: #0f0f0f;
-  background-color: #ffffff;
-  transition: border-color 0.25s;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.1s;
 }
 
 button {
   cursor: pointer;
 }
 
-button:hover {
-  border-color: #396cd8;
-}
+
 button:active {
-  border-color: #396cd8;
+  border-color: #ffffff;
   background-color: #e8e8e8;
 }
 
@@ -98,7 +85,7 @@ button {
 @media (prefers-color-scheme: dark) {
   :root {
     color: #f6f6f6;
-    background-color: #2f2f2f;
+    background-color: #454545;
   }
 
   a:hover {
