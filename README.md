@@ -4,7 +4,7 @@
 
 
 > [!IMPORTANT]
-> if you are on macOS，and it might says `“dtmf.app”已损坏，无法打开` when you try to install the app, then do this command below：
+> if you are on macOS，and it might say the app is damaged when you try to oepn the app, then do this command below：
 > ```shell
 > xattr -d com.apple.quarantine /Applications/dtmf.app
 > ```
