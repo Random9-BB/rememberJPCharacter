@@ -6,5 +6,5 @@
 > [!IMPORTANT]
 > if you are on macOS，and it might say the app is damaged when you try to oepn the app, then do this command below：
 > ```shell
-> xattr -d com.apple.quarantine /Applications/dtmf.app
+> xattr -d com.apple.quarantine /Applications/jpcharacters.app
 > ```
